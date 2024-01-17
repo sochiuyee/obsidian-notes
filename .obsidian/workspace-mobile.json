@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "3ad58d99c0b53b41",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d8e674822f843b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "769b25cee351dc72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/源码学习/React18/🤖时间切片.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0a77fff7a28b8a6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "80d7a7b3bd9ba54d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e5c6c4e7d3ef7ea8",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4e16ff5a70439bc4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "549069b4ae5127c5",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "d14b0a2d8d488273",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0,
+    "pinned": true
+  },
+  "right": {
+    "id": "1b53485c9a2ca641",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "51570813af50993c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "前端/源码学习/React18/🤖时间切片.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "de57948de099a711",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "前端/源码学习/React18/🤖时间切片.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e5e45bf1ae6d2ee4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "前端/源码学习/React18/🤖时间切片.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "769b25cee351dc72",
+  "lastOpenFiles": [
+    "前端/源码学习/React18/🤖时间切片.md",
+    "前端/知识点/JS 时间循环 Event Loop.md",
+    "前端/知识点/无感刷新token.md",
+    "Pasted image 20230201115500.png.md",
+    "Pasted image 20230201113109.png.md",
+    "obsidian 设置/GitHub 代理.md",
+    "前端/课程/React18基本知识/pureComponent与shouldComponentUpdate.md",
+    "前端/课程/react hooks",
+    "obsidian 设置/手动下载插件.md",
+    "前端/调试/vscode调试.md"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "c18b85115431a37f",
+    "type": "split",
+    "children": [
+      {
+        "id": "29056cf958bbb5c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d524a011bb2fb141",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b889a4c28a09021",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccfc2a9886794fad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84864cc73b7765fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "535cfc4b032eaee9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63e16a4e3a080c76",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c55708be7e553daa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b9907ba739062f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ff62311c306bfbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be123d2932a79110",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f5754a67400b7d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7371bf47590769c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e9734393dec67288",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "c5241d523337e3d4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb338257ff581c63",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "d524a011bb2fb141",
+  "lastOpenFiles": [
+    "前端/优化/小程序打包体积.md",
+    "前端/优化/小程序分包优化实践.md",
+    "前端/源码学习/React18/时间切片.md",
+    "前端/踩坑/文字超出父元素宽度不换行bug.md",
+    "前端/课程/react hooks",
+    "前端/调试/Chrome 调试.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/react router 相关配置.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/webpack 配置.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/babel 配置.md",
+    "前端/配置/package.json/版本符号.md",
+    "前端/配置/package.json/安装命令.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/JS 和 CSS 打包分离.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/eslint 配置.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/typescript配置.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/antd 配置.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/前端性能优化.md",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/初始化/前端工程开发代码工具库配置.md",
+    "前端/知识点/多窗口之间sessionStorage共享状态.md",
+    "images/Pasted image 20230424140519.png",
+    "前端/git/git 推送 unable to access xxx OpenSSL SSL_read.md",
+    "前端/知识点/JS 时间循环 Event Loop.md",
+    "前端/知识点/无感刷新token.md",
+    "前端/课程/前端主流布局系统进阶与实战/rem布局.md",
+    "前端/知识点/缓存.md",
+    "前端/知识点/通过history 判断返回到首页.md",
+    "前端/调试/whistle 抓包.md",
+    "前端/调试/whistle 生产环境调出eruda.md",
+    "前端/调试/vscode调试.md",
+    "_remotely-save-metadata-on-remote.json",
+    "前端/调试/whistle 抓包.canvas",
+    "obsidian 设置/未命名.canvas",
+    "images/Pasted image 20230420143110.png",
+    "images/Pasted image 20230420143008.png",
+    "images/Pasted image 20230420142654.png",
+    "images/Pasted image 20230420142512.png",
+    "images/Pasted image 20230420142427.png",
+    "images/Pasted image 20230419220609.png",
+    "未命名.canvas",
+    "images/Pasted image 20230417000546.png",
+    "images/Pasted image 20230412190122.png",
+    "images/Pasted image 20230406105803.png",
+    "前端/课程/React18",
+    "前端/面试题集锦",
+    "英语",
+    "前端/课程/前端主流布局系统进阶与实战",
+    "前端/调试",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/页面布局/未命名",
+    "前端/课程/基于 React + Redux Mobx 搞定复杂项目状态管理/页面布局",
+    "前端/踩坑"
+  ]
+}

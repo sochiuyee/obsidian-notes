@@ -1,0 +1,74 @@
+/* 分割线宽度 */
+body {
+  --hr-thickness: 1.8px;
+  --color-base-50: #ababab;
+  --list-marker-color: var(--color-base-50);
+}
+
+:root {
+  --light0_x: 216,222,233; /* #d8dee9 */
+  --dark3_x:  76,86,106; /* #4c566a */
+}
+
+.theme-light {
+  --cursor-line-background: rgba(var(--light0_x), 0.2);
+}
+
+.theme-dark {
+  --cursor-line-background: rgba(var(--dark3_x), 0.5);
+}
+
+body.theme-light .cm-line.hr hr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--background-primary);
+  margin: 0 46%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='8' height='8' fill='none' stroke='%2300000090' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' class='logo-wireframe'%3E%3Cpath d='M 30.91 17.52 L 34.43 35.7 M 61.44 14.41 L 62.61 0 M 34.43 35.7 L 37.57 90.47 M 81 26.39 L 61.44 14.41 L 34.43 35.7 L 65.35 100 M 62.61 0 L 30.91 17.52 L 18 45.45 L 37.57 90.47 L 65.35 100 L 70.44 89.8 L 81 26.39 L 62.61 0 Z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+body.theme-dark .cm-line.hr hr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 100%;
+  margin: 0 46%;
+  background-color: var(--background-primary);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='8' height='8' fill='none' stroke='%23ffffff90' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' class='logo-wireframe'%3E%3Cpath d='M 30.91 17.52 L 34.43 35.7 M 61.44 14.41 L 62.61 0 M 34.43 35.7 L 37.57 90.47 M 81 26.39 L 61.44 14.41 L 34.43 35.7 L 65.35 100 M 62.61 0 L 30.91 17.52 L 18 45.45 L 37.57 90.47 L 65.35 100 L 70.44 89.8 L 81 26.39 L 62.61 0 Z'%3E%3C/path%3E%3C/svg%3E")
+}
+
+/* 点击行出现标识 */
+body:not(.no-active-line-highlight) .cm-active:not(.HyperMD-quote,.HyperMD-header,.HyperMD-codeblock)::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: -1.125em;
+  border-left: 3px solid var(--blockquote-border-color);
+}
+
+.cm-active
+{
+  background-color: var(--cursor-line-background) !important;
+}
+
+ol > li::marker, ul > li::marker, .cm-s-obsidian .cm-formatting-list {
+  color: var(--list-marker-color);
+}
+
+/*文件夹图标 */
+.nav-folder-children .nav-folder-title-content::before {
+content: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' version='1.1' id='svg8' sodipodi:docname='dark-folder-01.svg' width='16' height='16' inkscape:version='1.2.1 (9c6d41e410, 2022-07-14)' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Cdefs id='defs12' /%3E%3Csodipodi:namedview id='namedview10' pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1.0' inkscape:showpageshadow='2' inkscape:pageopacity='0.0' inkscape:pagecheckerboard='0' inkscape:deskcolor='%23d1d1d1' showgrid='false' inkscape:zoom='9.8333333' inkscape:cx='2.4915254' inkscape:cy='12.050847' inkscape:window-width='1600' inkscape:window-height='978' inkscape:window-x='-6' inkscape:window-y='-6' inkscape:window-maximized='1' inkscape:current-layer='svg8' /%3E%3Cpath d='M 8.2691,5.6 H 13.85 c 0.358985,0 0.65,0.2910148 0.65,0.6499999 V 15.349999 C 14.500001,15.708984 14.208985,16 13.85,16 H 2.1500002 c -0.3589855,0 -0.6500006,-0.291016 -0.65,-0.650001 V 4.95 c 0,-0.3589851 0.2910149,-0.65 0.65,-0.65 h 4.8190999 z' id='path4' style='stroke-width:0.65;fill:%23b3b3b3;fill-opacity:1' sodipodi:nodetypes='csscsscsscc' /%3E%3C/svg%3E%0A");
+margin: 0 5px 0 0;
+}

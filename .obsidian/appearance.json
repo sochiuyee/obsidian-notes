@@ -1,0 +1,12 @@
+{
+  "accentColor": "#ce8586",
+  "cssTheme": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "index",
+    "default",
+    "theme"
+  ],
+  "translucency": false,
+  "interfaceFontFamily": "苹方"
+}

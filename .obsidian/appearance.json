@@ -1,0 +1,15 @@
+{
+  "accentColor": "#edb0dd",
+  "theme": "obsidian",
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "snippet — colored-folders",
+    "snippet — custom-list-styles__adding-decimals",
+    "[AnuPpuccin]custom-rainbow-colors",
+    "[AnuPpuccin]extended-colorschemes",
+    "[AnuPpuccin]floating-search-bar",
+    "涂黑圆角",
+    "default",
+    "Blue Topaz Codebox"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "11543c270cdb3c92",
+    "type": "split",
+    "children": [
+      {
+        "id": "94cdba0eb8350ba0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec4c8aaacc449117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/源码学习/React18/createElement 源码解读.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdb100a2dfc30169",
+    "type": "split",
+    "children": [
+      {
+        "id": "7efc36ab560fc4a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85e6ec8b2133b435",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43b4d626fd23853a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e54edbe2e71e4f99",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7617de6521f268af",
+    "type": "split",
+    "children": [
+      {
+        "id": "216d5aa14111f2df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53fd5a9286393141",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "前端/源码学习/React18/createElement 源码解读.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b36960a795e6128",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "前端/源码学习/React18/createElement 源码解读.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "550d4d263aa4e4e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0314140cfd964019",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "前端/源码学习/React18/createElement 源码解读.md"
+              }
+            }
+          },
+          {
+            "id": "8c40487ef73ecf3a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "ec4c8aaacc449117",
+  "lastOpenFiles": [
+    "obsidian 设置/GitHub 代理.md",
+    "obsidian 设置/手动下载插件.md",
+    "obsidian 设置/翻墙.md",
+    "前端/源码学习/React18/createElement 源码解读.md",
+    "obsidian 设置/obsidian memo使用.md",
+    "obsidian 设置/obsidian callout 模块使用.md",
+    "前端/面试题集锦/new 函数和不new 函数的区别.md",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/测试.md",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230804083408324.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230804081653737.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230804081213575.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/README.md",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/LICENSE",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230711230856232.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230711230421971.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230711230310740.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230524125630410.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230204021300718.png",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets/image-20230204021844914.jpeg",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets/README.assets",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9/assets",
+    "Blue-Topaz-Legacy-Release_v1.9/Blue-Topaz-Legacy-Release_v1.9",
+    "Blue-Topaz-Legacy-Release_v1.9",
+    "Blue-Topaz-Legacy-Release_v1.9.zip",
+    "前端/课程/React18基本知识/虚拟DOM与React18新的渲染写法.md",
+    "前端/调试/Chrome 调试.md",
+    "前端/配置/package.json/安装命令.md",
+    "前端/配置/Java SDK/windows配置环境变量.md",
+    "前端/配置/Java SDK/甲骨文官网下载.md"
+  ]
+}
